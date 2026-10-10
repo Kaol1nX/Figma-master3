@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rivo</title>
     <style>
-        *{
+        * {
             margin: 0;
-            padding:0;
+            padding: 0;
             box-sizing: border-box;
         }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #C2EFD4;
-
         }
+
+        section {
+            background: #C2EFD4;
+        }
+
         header {
             color: #224F34;
             padding: 30px 0px;
@@ -25,24 +30,29 @@
             justify-content: space-between;
             justify-content: space-around;
             background: #C2EFD4;
-            
+
         }
+
         .logo {
             font-family: Elephant;
-            
+
         }
+
         nav {
             display: flex;
             flex-direction: row;
             gap: 40px;
         }
+
         .hero {
             min-height: 400px;
             padding: 40px;
             display: flex;
             justify-content: space-between;
             flex-direction: row 2;
-            padding-right: 250px;
+            padding-right: 300px;
+            padding: 200px;
+
         }
 
         .hero-content {
@@ -53,14 +63,16 @@
             flex-direction: column;
             padding-left: 80px;
             text-align: left;
-            font-family:Georgia;
+            font-family: Georgia;
             gap: 10px;
             display: flex;
-                       
+
         }
-        .dhero{
-        max-width: 500px;
+
+        .dhero {
+            max-width: 500px;
         }
+
         .hero h1 {
             font-size: 42px;
             margin-bottom: 15px;
@@ -69,54 +81,84 @@
         .hero p {
             font-size: 15px;
         }
-        
-        .nav{
+
+        .nav {
             display: flex;
             align-items: center;
             gap: 50px;
             justify-content: center;
-           
-            
+
+
         }
-        .log{
+
+        .log {
             display: flex;
             align-items: center;
             gap: 50px;
             justify-content: center;
         }
-        .st{
-            border: 2px solid #224F34; 
-            padding: 15px; 
-            border-radius: 3px;  
+
+        .st {
+            border: 2px solid #224F34;
+            padding: 15px;
+            border-radius: 3px;
             width: 150px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        .photo{
+
+        .photo {
             display: flex;
             flex-direction: row-reverse;
             flex-direction: row 1;
         }
+
         button {
             width: 142px;
             height: 52px;
-            color: #224f34;
-            background-color: #c2efd4;
+            color: white;
+            background-color: #224f34;
             border: 1px solid #224f34;
             border-radius: 3px;
-            font-family: Poppins;
             font-weight: 500;
-            font-style: Medium;
             font-size: 20px;
             line-height: 100%;
             letter-spacing: 0%;
-            text-transform: uppercase;
-    }
+            margin-top: 30px;
+        }
+
+        .section2 {}
+
+        .gl {
+            padding: 100px;
+            color: #224F34;
+            display: flex;
+            font-family: Elephant;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .photo2{
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+        }
+        .ngl{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 220px;
+            margin-top: 50px;
+        }
+        .button2{
+
+        }
     </style>
-       
+
 </head>
-    
+
 
 <body>
     <header>
@@ -125,7 +167,7 @@
             <h1>Rivo</h1>
         </div>
 
-        <div class="nav">   
+        <div class="nav">
             <h2>HOME</h2>
             <h2>SHOP</h2>
             <h2>FEATURES</h2>
@@ -142,11 +184,47 @@
     <section class="hero">
         <div class="hero-content">
             <h1 style="font-size:70px;">Discover and Find Your Own Fashion!</h1>
-            <p class="dhero" style="font-size: 25px;" >Explore our curated collection of stylish clothing and accessories tailored to your unique taste</p> 
+            <p class="dhero" style="font-size: 25px;">Explore our curated collection of stylish clothing and
+                accessoriestailored to your unique taste</p>
+            <button class="button">
+                <p>EXPLORE NOW</p>
+            </button>
         </div>
         <img src="Mask group.png" alt="">
     </section>
-    
+
+    <section2>
+        <div class="gl">
+            <h1 style="font-size: 80px;">Best selling</h1>
+            <p style="font-size: 30px;">Get in on the trend with our curated selection of best-selling styles</p>
+        </div>
+        <div class="photo2">
+            <img src="image.png" wight="430px" height="566px">
+            <img src="image copy.png" width="430px" height="566px">
+            <img src="image copy 2.png" width="430px" height="566px">
+        </div>
+         <div class="ngl">
+            <h2>Regural Fit Long Sleeve Top</h2>
+            <h2>Black Crop Tailored Jacket</h2>
+            <h2>Textured Sunset Shirt</h2>
+         </div>
+         <div class="button2">
+            
+        
+         </div>
+
+
+
+
+
+
+
+
+
+    </section2>
+
+
+
 
 
 
